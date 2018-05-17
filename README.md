@@ -8,6 +8,10 @@ A version of `clojure.inspector/inspect-tree` that includes reverse references w
 
 Alternatively, you can just hotload the dependency in your project (`cljr-hotload-dependency` in Emacs).
 
+```clojure
+> (require '[gadget.core :as g])
+> (g/inspect-entity-tree (d/entity (d/db conn) 0))
+```
 ## License
 
 Copyright © 2018 Brian Maddy
