@@ -4,9 +4,9 @@ A version of `clojure.inspector/inspect-tree` that includes reverse references w
 
 ## Usage
 
-Latest version: [![Clojars Project](https://img.shields.io/clojars/v/gadget.svg)](https://clojars.org/gadget)
+[![Clojars Project](https://img.shields.io/clojars/v/gadget.svg)](https://clojars.org/gadget)
 
-One option is to just hotload the dependency in your project (`cljr-hotload-dependency` in Emacs).
+Alternatively, you can just hotload the dependency in your project (`cljr-hotload-dependency` in Emacs).
 
 ## License
 
